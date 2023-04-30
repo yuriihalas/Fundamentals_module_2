@@ -1,0 +1,15 @@
+/Users/yuriimac/Projects/LearnCiSharp/LearnCiSharp/bin/Debug/net7.0/LearnCiSharp
+/Users/yuriimac/Projects/LearnCiSharp/LearnCiSharp/bin/Debug/net7.0/LearnCiSharp.deps.json
+/Users/yuriimac/Projects/LearnCiSharp/LearnCiSharp/bin/Debug/net7.0/LearnCiSharp.runtimeconfig.json
+/Users/yuriimac/Projects/LearnCiSharp/LearnCiSharp/bin/Debug/net7.0/LearnCiSharp.dll
+/Users/yuriimac/Projects/LearnCiSharp/LearnCiSharp/bin/Debug/net7.0/LearnCiSharp.pdb
+/Users/yuriimac/Projects/LearnCiSharp/LearnCiSharp/obj/Debug/net7.0/LearnCiSharp.csproj.AssemblyReference.cache
+/Users/yuriimac/Projects/LearnCiSharp/LearnCiSharp/obj/Debug/net7.0/LearnCiSharp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yuriimac/Projects/LearnCiSharp/LearnCiSharp/obj/Debug/net7.0/LearnCiSharp.AssemblyInfoInputs.cache
+/Users/yuriimac/Projects/LearnCiSharp/LearnCiSharp/obj/Debug/net7.0/LearnCiSharp.AssemblyInfo.cs
+/Users/yuriimac/Projects/LearnCiSharp/LearnCiSharp/obj/Debug/net7.0/LearnCiSharp.csproj.CoreCompileInputs.cache
+/Users/yuriimac/Projects/LearnCiSharp/LearnCiSharp/obj/Debug/net7.0/LearnCiSharp.dll
+/Users/yuriimac/Projects/LearnCiSharp/LearnCiSharp/obj/Debug/net7.0/refint/LearnCiSharp.dll
+/Users/yuriimac/Projects/LearnCiSharp/LearnCiSharp/obj/Debug/net7.0/LearnCiSharp.pdb
+/Users/yuriimac/Projects/LearnCiSharp/LearnCiSharp/obj/Debug/net7.0/LearnCiSharp.genruntimeconfig.cache
+/Users/yuriimac/Projects/LearnCiSharp/LearnCiSharp/obj/Debug/net7.0/ref/LearnCiSharp.dll
