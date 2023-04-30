@@ -1,15 +1,13 @@
-﻿using System;
-namespace Games.HangmanGame;
+﻿namespace Games.HangmanGame;
 
 public static class HangmanGame
 {
-
-    private const int PLAYER_MAX_LIFES = 6;
+    private const int PLAYER_LIFE_POINTS = 6;
     private static readonly string[] _dictionary = { "fish", "dog", "parrot" };
 
     public static void RunGame()
     {
-        int currentPlayerLifes = PLAYER_MAX_LIFES;
+        int playerLifePoints = PLAYER_LIFE_POINTS;
 
         int randomIndex = new Random().Next(0, _dictionary.Length);
         string secretWord = _dictionary[randomIndex];
@@ -19,9 +17,9 @@ public static class HangmanGame
         Console.WriteLine(String.Join(" ", maskedLetters));
 
 
-        while (currentPlayerLifes > 0)
+        while (playerLifePoints > 0)
         {
-            string lifeMessage = $"Player has {currentPlayerLifes} life points\n";
+            string lifeMessage = $"Player has {playerLifePoints} life points\n";
             Console.Write(new string(' ', Console.BufferWidth - lifeMessage.Length) + lifeMessage);
 
 
@@ -51,14 +49,14 @@ public static class HangmanGame
             else
             {
                 Console.WriteLine(String.Join(" ", maskedLetters));
-                currentPlayerLifes--;
+                playerLifePoints--;
                 Console.WriteLine("No such letter\n");
             }
+
             Console.WriteLine();
         }
+
         Console.WriteLine("Game over");
         Task.Delay(10000).Wait();
     }
-
 }
-

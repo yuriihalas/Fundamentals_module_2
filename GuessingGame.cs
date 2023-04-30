@@ -16,7 +16,8 @@ public static class GuessingGame
             Console.Write("Your answer: ");
 
             int playerAnswer;
-            while (!Int32.TryParse(Console.ReadLine(), out playerAnswer) || !Enumerable.Range(MIN, MAX).Contains(playerAnswer))
+            while (!Int32.TryParse(Console.ReadLine(), out playerAnswer) ||
+                   !Enumerable.Range(MIN, MAX).Contains(playerAnswer))
             {
                 Console.WriteLine($"Please, provide only numbers from {MIN} to {MAX}");
                 Console.Write("Your answer: ");
@@ -33,8 +34,8 @@ public static class GuessingGame
             else
             {
                 Console.WriteLine("Bullseye!");
-
-                Console.WriteLine("\nDo you want to play one more time? (type: 'No' or 'N' if you don't want to play with me anymore)");
+                Console.WriteLine(
+                    "\nDo you want to play one more time? (type: 'No' or 'N' if you don't want to play with me anymore)");
                 string answer = Console.ReadLine();
                 if (answer.Equals("N") || answer.Equals("No"))
                 {
