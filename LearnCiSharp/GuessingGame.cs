@@ -1,6 +1,6 @@
 ﻿namespace Games.GuessingGame;
 
-public class GuessingGame
+public static class GuessingGame
 {
     private const int MIN = 0;
     private const int MAX = 50;

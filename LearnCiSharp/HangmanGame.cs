@@ -1,7 +1,7 @@
 ﻿using System;
 namespace Games.HangmanGame;
 
-public class HangmanGame
+public static class HangmanGame
 {
 
     private const int PLAYER_MAX_LIFES = 6;
