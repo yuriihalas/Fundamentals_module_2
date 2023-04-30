@@ -11,6 +11,7 @@ public class Game
         {
             Console.WriteLine("Please, type the game you want to play: 'Guessing', 'Hangman' or 'Exit'");
             string answer = Console.ReadLine();
+            Console.Clear();
             switch (answer)
             {
                 case "Guessing":
@@ -25,8 +26,6 @@ public class Game
                     Console.WriteLine("There is no such game!\nTry again");
                     break;
             }
-
-            Console.Clear();
         }
     }
 }   
