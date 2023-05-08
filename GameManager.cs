@@ -3,7 +3,7 @@ using Games.HangmanGame;
 
 namespace LearnCiSharp;
 
-public class GameManager
+public static class GameManager
 {
     public static void RunGame()
     {
