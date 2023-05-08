@@ -8,7 +8,6 @@ public static class HangmanGame
     public static void RunGame()
     {
         int playerLifePoints = PLAYER_LIFE_POINTS;
-
         int randomIndex = new Random().Next(0, _dictionary.Length);
         string secretWord = _dictionary[randomIndex];
 
@@ -16,14 +15,12 @@ public static class HangmanGame
         char[] maskedLetters = Enumerable.Repeat('_', secretWord.Length).ToArray();
         Console.WriteLine(String.Join(" ", maskedLetters));
 
-
         while (playerLifePoints > 0)
         {
             string lifeMessage = $"Player has {playerLifePoints} life points\n";
             Console.Write(new string(' ', Console.BufferWidth - lifeMessage.Length) + lifeMessage);
-
-
             Console.SetCursorPosition(Console.CursorLeft, Console.CursorTop - 1);
+
             Console.WriteLine("Please, provide a letter");
             Console.Write("Your letter: ");
             char playerAnswer = Console.ReadKey().KeyChar;
